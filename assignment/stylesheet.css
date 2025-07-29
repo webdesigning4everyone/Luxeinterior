@@ -1,0 +1,337 @@
+ body{
+    background-color: black;
+ }
+ main{
+    margin: 20px;
+ }
+ header{
+    background-color:  rgb(78, 23, 130);
+
+ }
+ .home{
+   
+    text-decoration: yellow;
+ }
+
+
+ ul{
+    padding: 5px;
+    list-style-type: none;
+    display: flex;
+    flex: row;
+    justify-content: flex-end;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: rgb(63, 217, 199);
+  
+}
+.navbar a:hover{
+    background-color: rgb(122, 35, 165);
+
+}
+
+.banner-card img{
+   max-width: 100%;
+   height: auto;
+   filter: brightness(0.4)
+  /* opacity(10) */
+}
+
+
+
+.banner-card{
+    position: relative;
+}
+
+.banner-text{
+    position: absolute;
+    top: 40%;
+    padding: 10px;
+    
+}
+
+.banner-text{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100%;
+    margin-bottom:10px;
+   text-shadow: 10px;
+   text-align: center;
+   text-indent: 30px;
+   font-size: 25px;
+   /* line-height: 10%; */
+  
+}
+.slogan{
+     text-align: center;
+        line-height: 10%;
+        text-transform: none;
+        font-size: 15px;
+     
+}
+
+.content h1{
+    color: white;
+    text-align: center;  
+    position: relative;
+    padding: 5px;
+    top: 10px;
+    bottom: 5px;
+   
+}
+
+.content h1::before{
+    display: block;
+    content: "";
+    width:120px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: 56%; 
+}
+.content h1::after{
+    display: block;
+    content: "";
+    width:120px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 56%;
+}
+.content p{
+    text-align: center;
+    color: white;
+   line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top: 10px;
+}
+ .content1::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: white;
+    width:80%;
+    height:3%;
+    top: 105%;
+    right: 11%;
+    bottom: 10px;
+}
+
+footer{ 
+    background-color: rgb(37, 36, 36);
+    text-align: center;
+    padding: 30px;
+   margin-top: 3%;
+}
+
+ h3{
+    
+    color: white;
+    text-align: center;
+    }
+
+ .footer-p{
+    padding-top: 4px;
+    background-color:  rgb(78, 23, 130);
+    height: 25px;
+    color: white;
+    font-size: 1.1rem;
+}
+.footerlink{
+    text-decoration: none;
+     color: yellow;
+}
+.footer-p a:hover{
+    background-color: rgb(187, 65, 181);
+}
+
+.cover{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    filter: drop-shadow(2);
+   }
+
+.banner{
+    width: 100%;
+    top:10px;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-image: url(homeinterior3.jpg);
+    background-position: center;
+    background-size: cover;
+   filter: opacity(0.4);
+  
+}
+
+
+.banner-content{
+   margin-top: 0;
+   padding-top: 0;
+}
+.banner-content h1::after{
+    display: block;
+    content: "";
+    width:120px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+}
+.banner-content h1::before{
+    display: block;
+    content: "";
+    width:120px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    right: 55%; 
+}
+.banner-content h1{
+    position: relative;
+    font-size: 2rem;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.banner-content p{
+        font-display: justify;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:  15px;
+text-transform: none;
+line-height: 20px;}
+
+.project-content{
+    width: 80%;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(78, 23, 130);
+    border-width: 5px;
+  
+}
+.project{
+
+    margin-top: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;    
+    background-color: rgb(47, 42, 42);
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 55% 55% 55%;
+    justify-items: auto;
+    justify-content: center;
+    background-color: rgb(42, 47, 47);
+    height: 100%;
+    width: 100%; 
+}
+.team img{
+    max-width: 100%;
+    height: 50px;
+   height: auto;
+   filter: brightness(0.2)
+}
+.team{
+    position: relative;
+}
+.team-content{
+    position:absolute;
+    color: white;
+
+    top: 20%;
+    padding: 10px;
+}
+.team-content h1{
+    font-size: 50px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     width: 60%;
+}
+.team-p{
+    align-items:justify;
+    width: 50%;
+   font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.contact{
+    /* background-color: aqua; */
+    display: flex;
+    height: 30vh;
+    /* border: solid rgb(78, 23, 130) 4px; */
+  padding-left: 2.7%;
+  padding-top: 1%;
+  padding-bottom: 4%;
+  margin-top: 2%;
+ 
+  
+}
+.contact-item{ 
+border: solid rgb(78, 23, 130) 3px;
+border-radius: 8px;
+background-color:rgb(47, 42, 42) ;
+color: white;
+align-items:center ;
+margin-right: 2%;
+padding-left: 4%;
+padding-top: 6%;
+width:100%;
+height: 100%;
+
+}
+.contact-item h2{
+    font-size: 30px;
+    padding-top: 4%;
+}
+.contact-item p{
+    font-size: 22px;
+    padding-left:10%;
+}
+
+.contact-footer{
+    margin-top: 4%;
+}
+
+.text {
+    /* background-color: aqua; */
+    font-size: 40px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ text-align: center;
+}
+
+.text::before{
+    display: block;
+    content: "";
+    width:120px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 58%;
+    right: 58%; 
+}
+.text::after{
+    display: block;
+    content: "";
+    width:120px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 58%;
+    left: 58%;
+}
